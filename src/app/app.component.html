@@ -1,0 +1,14 @@
+<div class="mainBody">
+  <div id="innerMainBody" class="innerMainBody" >
+    <div class="secondryMain" [ngStyle]="{'transform': 'scale(' + xScale + ',' + yScale + ')', 'overflow' : scale == 100 ? 'hidden' : 'auto'}">
+      <div class="resolutionMAin" [ngStyle]="{'transform': 'scale(' + scale / 100 + ')', 'transform-origin': left + 'px ' + top + 'px'}">
+        <div class="component1">
+          <div class="componentInner1"></div>
+        </div>
+        <div class="component2">
+          <span>Bavin</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

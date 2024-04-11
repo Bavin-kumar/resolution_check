@@ -1,0 +1,59 @@
+.mainBody {
+    height: 97vh;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.innerMainBody {
+    height: 80%; 
+    width: 80%;
+    background-color: azure;
+    overflow: hidden;
+}
+
+.resolutionMAin {
+    height: 100%;
+    width: 100%;
+    background-color: bisque;
+    /* transform: scale(0.886, 0.74);
+    transform-origin: 0 0; */
+}
+
+.component1 {
+    height: 10%;
+    width: 100%;
+    background-color: blueviolet;
+    border: dotted;
+}
+
+.componentInner1 {
+    height: 100%;
+    width: 100%;
+    background-color: brown;
+    border: dashed;
+}
+
+.component2 {
+    height: 10%;
+    width: 100%;
+    background-color: blueviolet;
+    border: dotted;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.secondryMain {
+    height: 900px;
+    width: 1600px;
+    background-color: azure;
+    transform-origin: 0px 0px;
+}
+
+span {
+    font-size: 30px;
+    font-weight: bold;
+}
